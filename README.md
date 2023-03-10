@@ -3,7 +3,6 @@ Repositório destinado a projetos feitos durante cursos/aulas. <br> <br>
 ![capa 2](https://user-images.githubusercontent.com/63726379/224439521-5c452e70-9d7d-4f22-8b91-547c2d68953a.png)
 
 # 🚀 Tecnologias
-Esse projeto está sendo desenvolvido com as seguintes tecnologias: <br>
 <li> HTML
 <br>
 <li> CSS
