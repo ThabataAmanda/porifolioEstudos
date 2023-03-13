@@ -1,0 +1,118 @@
+header img {
+    width: 22%;
+}
+
+.container-navigation {
+    gap: 32px;
+    display: flex;
+}
+
+.container-navigation a {
+    font-size: 30px;
+}
+
+
+h1 span {
+    color: #a62639;
+}
+
+.p-one {
+    width: 55%;
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.about a {
+    background: #a62639;
+    width: 220px;
+    height: 45px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.about-me {
+    margin-top: 80px;
+}
+
+.container-text {
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.container-text h1 {
+    line-height: 50px;
+}
+
+.my-text {
+   white-space: nowrap;
+}
+
+.container-bottom {
+    margin-top: 10px;
+    display: flex;
+    gap: 20px;
+}
+
+.container-bottom a {
+    background-color: #55484d;
+    padding: 5px 22px 5px 22px;
+}
+
+.container-bottom a:hover {
+    background: #a62639;
+    font-weight: 700;
+}
+
+.projects {
+    margin-top: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 80px;
+}
+
+.web {
+    width: 65%;
+    margin-left: -165px;
+}
+
+.container-projects {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 10px;
+}
+
+.button-half {
+    display: flex;
+    gap: 15px;
+}
+
+.button-half a {
+    width: 250px;
+    height: 60px;
+    background: #a62639;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    font-size: 22px;
+    text-transform: uppercase;
+}
+
+.half-button {
+    width: 25px;
+    height: 60px;
+    background: #a62639;
+}

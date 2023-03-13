@@ -1,0 +1,34 @@
+.nav-index:hover:after {
+    width: 8%;
+}
+
+.project {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-bottom: 80px;
+}
+
+.project h1 {
+    line-height: 20px;
+}
+
+.project>div {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.other-img1 {
+    object-position: 0 -40px;
+}
+
+.other-img2 {
+    object-position: 0 -58px;
+}
+
+.other-img3 {
+    object-position: 0 -154px;
+}
