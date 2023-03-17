@@ -5,6 +5,9 @@ header img {
 .container-navigation {
     gap: 32px;
     display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #1c1b1b;
 }
 
 .container-navigation a {
@@ -65,7 +68,7 @@ h1 span {
 
 .container-bottom a {
     background-color: #55484d;
-    padding: 5px 22px 5px 22px;
+    padding: 5px 22px;
 }
 
 .container-bottom a:hover {
