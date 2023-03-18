@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;600;700;900&display=swap');
 
+html {
+    scroll-behavior: smooth;
+}
+
 *,
 *::before,
 *::after {
@@ -26,7 +30,7 @@ main {
 }
 
 header {
-        max-width: 1100px;
+    max-width: 1100px;
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -128,3 +132,30 @@ p {
     object-position: 0 -94px;
     border-radius: 5px;
 }
+
+.js .anime {
+    opacity: 0;
+    transform: translate3D(-50px, 0px, 0px);
+}
+
+.js .anime-init {
+    opacity: 1;
+    transform: translate3D(0px, 0px, 0px);
+    transition: .3s all ease;
+}
+
+@keyframes go-back {
+    from {
+		transform: translateY(20px);
+	}
+
+	to {
+		transform: translateY(30px);
+	}
+
+    to {
+		transform: translateY(0px);
+	}
+  }
+
+

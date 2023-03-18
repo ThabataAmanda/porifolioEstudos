@@ -3,6 +3,7 @@ header img {
 }
 
 .container-navigation {
+    width: 100%;
     gap: 32px;
     display: flex;
     align-items: center;
@@ -27,6 +28,14 @@ h1 span {
     display: flex;
     flex-direction: column;
     gap: 24px;
+    position: relative;
+}
+
+.book{
+    width: 4%;
+    position: absolute;
+    right:0;
+    animation: go-back 2s ease-in-out infinite alternate-reverse;
 }
 
 .about a {
