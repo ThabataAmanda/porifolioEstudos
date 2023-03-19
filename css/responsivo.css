@@ -1,7 +1,8 @@
 @media(max-width: 600px) {
-    .book{
+    .book {
         display: none;
     }
+
     main {
         margin-top: 45px;
         max-width: 340px;
